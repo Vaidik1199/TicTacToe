@@ -9,10 +9,19 @@ body{
     color: bisque;
     font-size: 3em;
     text-shadow: 0px 0px 10px rgb(146, 104, 52);
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .title:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
+}
+
+.updatecmnd{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-shadow: 0px 0px 10px rgb(146, 104, 52);
+    cursor: pointer;
 }
 
 .box{
@@ -33,6 +42,7 @@ body{
     border-radius: 7px;
     margin: 3px;
     text-shadow: 1px 1px 3px black;
+    cursor: crosshair;
 }
 
 .box div:hover{
